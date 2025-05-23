@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #3a3a3a; /* más claro que #242424 */
+  color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 22%; /* base para 4 tarjetas */
+  min-width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 3px solid #b67b38; /* color cálido para destacar */
+}
+
+.title {
+  font-size: 1.8rem;
+  margin: 15px 0 10px 0;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.icon {
+  color: #b67b38;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+.text {
+  white-space: nowrap;
+}
+
+/* Responsive */
+
+/* Hasta 1200px - 3 tarjetas */
+@media (max-width: 1200px) {
+  .card {
+    width: 30%;
+  }
+}
+
+/* Hasta 900px - 2 tarjetas */
+@media (max-width: 900px) {
+  .card {
+    width: 45%;
+  }
+}
+
+/* Hasta 600px - 1 tarjeta */
+@media (max-width: 600px) {
+  .card {
+    width: 90%;
+  }
+}
