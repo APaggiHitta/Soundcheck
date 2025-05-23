@@ -8,6 +8,7 @@ import "./App.css";
 import NavBar from "./components/Navbar/NavBar";
 import WhatsappButton from "./components/WhatsappButton/WhatsappButton";
 import Contact from "./views/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
       <WhatsappButton />
     </>
   );

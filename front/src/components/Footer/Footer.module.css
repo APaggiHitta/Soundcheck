@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 30px;
+  background-color: #242424;
+  color: #f2eded;
+  font-size: 14px;
+}
+
+.left {
+  font-weight: 500;
+}
+
+.right {
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  color: #f2eded;
+  font-size: 22px;
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: #61dafb; /* color React para el hover */
+}
