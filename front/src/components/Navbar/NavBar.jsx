@@ -14,7 +14,6 @@ const NavBar = () => {
 
   useEffect(() => {
     function handleClickOutside(event) {
-      // Si el click NO fue dentro del menú Y NO fue dentro del icono hamburguesa, cerramos el menú
       if (
         menuRef.current &&
         !menuRef.current.contains(event.target) &&
@@ -60,8 +59,7 @@ const NavBar = () => {
         <Menu name="Home" to="/home" onClick={handleLinkClick} />
         <Menu name="Eventos" to="/events" onClick={handleLinkClick} />
         <Menu name="Acerca de" to="/about" onClick={handleLinkClick} />
-
-        <Menu name={"Contacto"} onClick={handleLinkClick} />
+        <Menu name="Contacto" to="/contact" onClick={handleLinkClick} />
         <Menu name={"Ingreso"} onClick={handleLinkClick} />
       </div>
     </div>

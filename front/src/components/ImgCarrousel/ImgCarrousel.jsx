@@ -3,11 +3,11 @@ import styles from "./ImgCarrousel.module.css";
 
 import img1 from "../../assets/img/home-cafres.jpg";
 import img2 from "../../assets/img/home-dread.jpg";
-import img3 from "../../assets/img/home-iracundos.jpeg";
+// import img3 from "../../assets/img/home-iracundos.jpeg";
 import img4 from "../../assets/img/home-laferte.jpg";
 import img5 from "../../assets/img/home-panchos.jpg";
 
-const images = [img1, img2, img3, img4, img5];
+const images = [img1, img2, img4, img5];
 
 const ImageCarousel = () => {
   const [current, setCurrent] = useState(0);

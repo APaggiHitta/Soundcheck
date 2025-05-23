@@ -1,0 +1,5 @@
+{
+  "appId": "com.soundcheck.app",
+  "appName": "Soundcheck",
+  "webDir": "dist"
+}
