@@ -5,7 +5,7 @@ import Events from "./views/Events/Events";
 import About from "./views/About/About";
 
 import "./App.css";
-import NavBar from "./components/Navbar/Navbar";
+import NavBar from "./components/NavBar/NavBar";
 import WhatsappButton from "./components/WhatsappButton/WhatsappButton";
 
 function App() {
