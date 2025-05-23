@@ -1,7 +1,9 @@
+import ImageCarousel from "../../components/ImgCarrousel/ImgCarrousel";
+
 const Home = () => {
   return (
     <div>
-      <h1></h1>
+      <ImageCarousel />
     </div>
   );
 };
