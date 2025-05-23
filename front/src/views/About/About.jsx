@@ -23,10 +23,15 @@ const About = () => {
           alta calidad, superando las expectativas de nuestros clientes en toda
           Centroamérica.
         </p>
+        <img src={photo1} alt="Evento musical" className={styles.image} />
       </section>
 
       <section className={styles.section}>
         <h2 className={styles.subtitle}>Valores</h2>
+        <p className={styles.description}>
+          Nuestros valores son la base que guía cada proyecto y decisión que
+          tomamos:
+        </p>
         <ul className={styles.list}>
           <li>Excelencia</li>
           <li>Compromiso</li>
@@ -34,6 +39,12 @@ const About = () => {
           <li>Trabajo en equipo</li>
           <li>Integridad</li>
         </ul>
+        <img
+          src={photo3}
+          alt="Evento empresarial"
+          className={styles.image}
+          style={{ marginTop: "1rem" }}
+        />
       </section>
 
       <section className={styles.section}>
@@ -44,6 +55,12 @@ const About = () => {
           Promovemos la sostenibilidad en cada uno de nuestros montajes y
           servicios.
         </p>
+        <img
+          src={photo2}
+          alt="Boda organizada por Soundcheck"
+          className={styles.image}
+          style={{ marginTop: "1rem" }}
+        />
       </section>
 
       <section className={styles.section}>
@@ -54,16 +71,6 @@ const About = () => {
           música, el arte y la organización de eventos.
         </p>
       </section>
-
-      <div className={styles.gallery}>
-        <img src={photo1} alt="Evento musical" className={styles.image} />
-        <img
-          src={photo2}
-          alt="Boda organizada por Soundcheck"
-          className={styles.image}
-        />
-        <img src={photo3} alt="Evento empresarial" className={styles.image} />
-      </div>
     </div>
   );
 };
