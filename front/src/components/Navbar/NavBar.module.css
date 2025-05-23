@@ -1,0 +1,54 @@
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.logoSC {
+  max-height: 150px;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+}
+
+.menuContainer {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #f2eded;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  color: #f2eded;
+}
+
+@media (max-width: 768px) {
+  .menuContainer {
+    display: none;
+    flex-direction: column;
+    background-color: #242424;
+
+    position: absolute;
+    top: 150px;
+    right: 0;
+    width: 200px;
+    padding: 20px;
+    border-radius: 8px;
+    gap: 20px;
+  }
+
+  .menuOpen {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}

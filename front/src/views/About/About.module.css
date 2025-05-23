@@ -1,0 +1,77 @@
+.aboutContainer {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #f2eded;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #e0c88f;
+}
+
+.subtitle {
+  font-size: 28px;
+  margin-top: 30px;
+  color: #d4a24b;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.list {
+  list-style: disc inside;
+  margin-top: 10px;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.image {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .title {
+    font-size: 28px;
+  }
+
+  .subtitle {
+    font-size: 22px;
+  }
+
+  .description,
+  .list {
+    font-size: 16px;
+  }
+
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image {
+    width: 90%;
+  }
+}
