@@ -5,6 +5,7 @@
   height: 150px;
   padding: 0 20px;
   position: relative;
+  z-index: 1000;
 }
 
 .logoSC {
@@ -21,6 +22,7 @@
   font-size: 20px;
   font-weight: 500;
   color: #f2eded;
+  z-index: 1001;
 }
 
 .hamburger {

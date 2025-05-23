@@ -3,6 +3,7 @@
   width: 100vw; /* Ocupa todo el ancho de la pantalla */
   height: 100vh; /* Opcional: puedes ajustar la altura según el diseño */
   overflow: hidden;
+  z-index: 1;
 }
 
 .image {
